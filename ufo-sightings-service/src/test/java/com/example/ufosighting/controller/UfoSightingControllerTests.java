@@ -1,4 +1,4 @@
-package com.example.ufosighting;
+package com.example.ufosighting.controller;
 
 import static java.util.stream.Collectors.toList;
 import static java.util.stream.Stream.of;
@@ -29,7 +29,7 @@ import com.example.ufosighting.service.UfoSightingService;
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(value = UfoSightingController.class)
-public class UfoSightingApplicationTests {
+public class UfoSightingControllerTests {
 
 	@Autowired
 	private MockMvc mockMvc;
